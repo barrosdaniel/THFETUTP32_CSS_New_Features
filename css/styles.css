@@ -38,4 +38,10 @@ section h2 {
 
 section img {
   width: 100%;
+  border: 2px solid #fff;
+  filter: drop-shadow(20px 20px 20px #000);
+}
+
+section .image-caption {
+  font-size: 0.75rem;
 }
