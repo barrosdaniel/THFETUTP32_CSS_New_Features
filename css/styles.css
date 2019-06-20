@@ -26,6 +26,15 @@ header {
 
 h1 {
   font-size: 3rem;
+  text-align: center;
+}
+
+.section-four p {
+  column-count: 2;
+  text-align: justify;
+  column-gap: 2rem;
+  column-rule: 1px dotted #3b5065;
+  column-width: 300px;
 }
 
 main {
@@ -93,4 +102,9 @@ section .image-caption {
   order: -1;
   height: 100px;
   align-self: flex-end;
+}
+
+.section-four {
+  background-color: #212121;
+  color: #eaeaea;
 }
