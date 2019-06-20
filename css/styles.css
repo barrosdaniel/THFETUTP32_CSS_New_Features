@@ -20,6 +20,10 @@ header {
   padding: 1rem;
 }
 
+h1 {
+  font-size: 3rem;
+}
+
 main {
   padding: 1rem;
   background-color: #bababa;
@@ -31,7 +35,7 @@ section {
 }
 
 section h2 {
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
   text-transform: uppercase;
 }
@@ -44,4 +48,10 @@ section img {
 
 section .image-caption {
   font-size: 0.75rem;
+}
+
+.section-two {
+  background-color: #1e90ff;
+  height: calc(100% - 100px);
+  width: calc(100vw / 2 + 2em);
 }
