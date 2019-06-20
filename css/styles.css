@@ -6,6 +6,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+ul {
+  list-style: none;
+}
+
 .container {
   width: 80%;
   max-width: 1140px;
@@ -54,4 +58,39 @@ section .image-caption {
   background-color: #1e90ff;
   height: calc(100% - 100px);
   width: calc(100vw / 2 + 2em);
+}
+
+.section-three {
+  background-color: #3b5065;
+}
+
+.section-three ul {
+  margin: 1rem;
+  border-radius: 0.5rem;
+  padding: 0;
+  /* height: 500px; */
+
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section-three li {
+  background-color: #6b8d82;
+  color: #fff;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 0.5rem;
+  text-align: center;
+  height: 300px;
+
+  flex-grow: 1;
+}
+
+.section-three li:nth-child(3) {
+  flex-grow: 5;
+  order: -1;
+  height: 100px;
+  align-self: flex-end;
 }
